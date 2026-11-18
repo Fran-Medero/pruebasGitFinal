@@ -10,9 +10,14 @@ public class Main {
         System.out.println("Dame otro número para la suma");
         int b = tec.nextInt();
         System.out.println(suma(a, b));
+        System.out.println(division(a, b));
     }
 
     private static int suma(int a, int b) {
         return a + b;
+    }
+
+    private static int division(int a, int b) {
+        return a / b;
     }
 }
